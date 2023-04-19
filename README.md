@@ -9,7 +9,7 @@
 6. Create a new login using SQL Server Authentication.
 7. Restart the SQL Server
 
-[SQL Login.png](https://github.com/maxumi/HowToSetupSQLConnection/blob/main/SQL%20Login.png)
+![SQL Login.png](https://github.com/maxumi/HowToSetupSQLConnection/blob/main/SQL%20Login.png)
 
 ## Allow SQL Server to login with IP address
 1. Go to SQL Server Configuration Manager.
@@ -19,6 +19,9 @@
 5. Scroll down to the bottom and find the IPALL Section
 6. clear the TCP Dynamic Ports field in that section and set TCP port to be 1433
 7. Restart your server
+
+![SQL Configuration](https://github.com/maxumi/HowToSetupSQLConnection/blob/main/SQL%20Server%20Configuration%20Manager.png)
+![SQL Login IP](https://github.com/maxumi/HowToSetupSQLConnection/blob/main/SQL%20Login%20IP.png)
 ## Allow Firewall so Access from outside is possible
 1. Go to Windows firewall.
 2. Go to advanced settings.
@@ -29,6 +32,7 @@
 7. Click on all 3(Domain, Private amd Public)
 8. Then Give it a name.
 
+![SQL Firewall](https://github.com/maxumi/HowToSetupSQLConnection/blob/main/SQL%20Firewall.png)
 ## What has been done.
 1. I have created a login and made sure the server can login with an user.
 2. Made sure that its now possible to change the name of the server to the IP address. To login now, use the name like this. **IPADDRESS,PORT**(192.168.1.1,1433). The Port afterwards always need a comma','.
