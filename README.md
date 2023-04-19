@@ -8,6 +8,9 @@
 5. Create a new Login by clicking the secruty Folder and then on Logins.
 6. Create a new login using SQL Server Authentication.
 7. Restart the SQL Server
+
+![Image](SQL-Login.png)
+
 ## Allow SQL Server to login with IP address
 1. Go to SQL Server Configuration Manager.
 2. Open SQL Server Network Configuration and choose Protocols.
