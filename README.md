@@ -9,7 +9,7 @@
 6. Create a new login using SQL Server Authentication.
 7. Restart the SQL Server
 
-![Image](SQL-Login.png)
+[SQL Login.png](https://github.com/maxumi/HowToSetupSQLConnection/blob/main/SQL%20Login.png)
 
 ## Allow SQL Server to login with IP address
 1. Go to SQL Server Configuration Manager.
